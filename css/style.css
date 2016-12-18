@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+
+.main{
+    background-image: url(../images/quizbg.jpg);
+    height: 638px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+
+    padding-left: 24%;
+    display: block;
+    background-image: url(../images/quizbg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+z-index: 2;
+}
+.one{
+    background-image: none;
+    background-color: rgb(192, 205, 222)
+}
+body{
+    font-family: 'Oswald';
+    font-size:18px;
+}
+h1{
+    display: inline-block;
+    font-size: 30px;
+
+}
+.title{
+    font-size: 36px;
+}
+.logoImg{
+    display: inline-block;
+    padding-bottom: 2%;
+}
+.question{
+    font-size: 32px;
+}
+
+.topbar {
+    height:25%;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    color:black;
+}
+
+#dropdown{
+    width: 42%;
+}
+.questionNumber{
+    float: right;
+    padding-right: 32%;
+    padding-top: 2%;
+}
+.intro{
+    background-image: none;
+    background-color: rgb(192, 205, 222);
+    padding-left: 0px;
+    text-align: center;
+}
+#introText{
+    padding-top: 5%;
+    font-size: 28px;
+}
+.question{
+    padding-top: 5%;
+}
+.results{
+    padding-left: 0px;
+    text-align: center;
+}
+.bigtext{
+    font-size: 28px;
+}
+.blink_me {
+    font-size: 22px;
+    padding-top: 2%;
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% { opacity: 0; }
+}
+#submitbtn{
+    padding: 8px 18px 8px 18px;
+}
+.submitquestbtn{
+    float: right;
+    margin-right: 40%;
+}
+#numbers{
+    width: 8%;
+    padding-left: 3%;
+}
+.imgAnswer{
+    padding:0;
+}
+.imgAnswer:hover{
+    opacity: 0.5;
+}

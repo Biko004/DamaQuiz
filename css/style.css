@@ -25,7 +25,6 @@
     position: fixed;
     top: 0;
     left: 0;
-z-index: 2;
 }
 .one{
     background-image: none;
@@ -72,6 +71,7 @@ h1{
     background-color: rgb(192, 205, 222);
     padding-left: 0px;
     text-align: center;
+    opacity: 1;
 }
 #introText{
     padding-top: 5%;
